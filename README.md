@@ -36,3 +36,4 @@
 > <img src="flutter_textformfield_with_pop_up/screenshots/suffixIcon.png" />
 ## Final Render
 > <img src="flutter_textformfield_with_pop_up/screenshots/screenrecorder.gif" />
+## Thanks for reading, don't hesitate to put a star if you liked it.
