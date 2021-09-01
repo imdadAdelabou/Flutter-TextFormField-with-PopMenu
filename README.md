@@ -22,3 +22,7 @@
 ## Let's go back to the essentials and build our PopMenu
 >To build a PopMenu we make use of the PopupMenuButton() widget by implementing it this way 👇👇👇:
 > <img src="flutter_textformfield_with_pop_up/screenshots/myPopMenu.png">
+
+1.itemBuilder
+    - A function that expects a List<PopupMenuItem<String>>, in a simple way the content of the PopMenuButton
+        - So what we do is we just convert a List of strings into a List of PopMenuItem
