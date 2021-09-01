@@ -26,8 +26,8 @@ class FirstPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
       children: [
+        SizedBox(height: 90.0),
         Padding(
           padding: const EdgeInsets.only(right: 8.0, left: 8.0),
           child: CustomTextField(

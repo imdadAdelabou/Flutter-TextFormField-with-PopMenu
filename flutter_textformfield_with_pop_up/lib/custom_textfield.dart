@@ -16,7 +16,7 @@ class CustomTextField extends StatelessWidget {
               borderRadius: BorderRadius.circular(8.0),
             ),
             hintText: "Enter your phone number.",
-            suffix: CustomPopMenu(controller: controller)),
+            suffixIcon: CustomPopMenu(controller: controller)),
       ),
     );
   }
