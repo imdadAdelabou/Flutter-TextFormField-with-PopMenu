@@ -32,3 +32,5 @@
 3. Icon
     - To make an icon representation of the PopupMenu when it is not active
 ## Well done we have come such a long way, we have just created the component for our PopupMenu so let's choose where to place it in our TextFormField
+> Personally I would put it in the **suffix** property of the TextFormField like this 👇👇👇👇:
+> <img src="flutter_textformfield_with_pop_up/screenshots/myPopMenu.png/suffix.png" />
