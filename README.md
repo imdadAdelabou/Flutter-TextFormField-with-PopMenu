@@ -10,4 +10,6 @@
 > <img src="flutter_textformfield_with_pop_up/screenshots/render1.png" />\
 > The TextFormField has a number of properties that define the look and feel of the widget.
 > For example we have these different properties 👇👇:
-
+1. controller
+    - To manage the content of the TextFormField
+    - With **controller.text** we can retrieve the content entered by the user
