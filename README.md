@@ -35,4 +35,4 @@
 > Personally I would put it in the **suffixIcon** property of the TextFormField like this 👇👇👇👇:
 > <img src="flutter_textformfield_with_pop_up/screenshots/suffixIcon.png" />
 ## Final Render
-> [flutter_textformfield_with_pop_up/screenshots/screenrecorder.gif]
+> <img src="flutter_textformfield_with_pop_up/screenshots/screenrecorder.gif" />
