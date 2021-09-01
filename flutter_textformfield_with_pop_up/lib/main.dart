@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
 }
 
 class FirstPage extends StatelessWidget {
-  const FirstPage({Key? key}) : super(key: key);
+  FirstPage();
+  TextEditingController _controller = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +30,9 @@ class FirstPage extends StatelessWidget {
       children: [
         Padding(
           padding: const EdgeInsets.only(right: 8.0, left: 8.0),
-          child: CustomTextField(),
+          child: CustomTextField(
+            controller: _controller,
+          ),
         )
       ],
     ));

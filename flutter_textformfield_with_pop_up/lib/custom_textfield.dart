@@ -1,7 +1,8 @@
 import "package:flutter/material.dart";
 
 class CustomTextField extends StatelessWidget {
-  const CustomTextField();
+  final TextEditingController controller;
+  const CustomTextField({required this.controller});
 
   @override
   Widget build(BuildContext context) {
@@ -9,12 +10,13 @@ class CustomTextField extends StatelessWidget {
       width: double.infinity,
       height: 70.0,
       child: TextFormField(
+        controller: controller,
         decoration: InputDecoration(
-          border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(8.0),
-          ),
-          hintText: "Enter your phone number.",
-        ),
+            border: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(8.0),
+            ),
+            hintText: "Enter your phone number.",
+            suffix: CustomPopMenu(controller: controller)),
       ),
     );
   }
@@ -31,6 +33,10 @@ class CustomPopMenu extends StatelessWidget {
       onSelected: (String value) {
         controller.text = value;
       },
+      icon: Icon(
+        Icons.arrow_drop_down,
+        color: Colors.orange,
+      ),
       itemBuilder: (BuildContext context) {
         return contents
             .map<PopupMenuItem<String>>(
