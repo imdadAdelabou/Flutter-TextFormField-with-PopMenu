@@ -21,13 +21,18 @@ class CustomTextField extends StatelessWidget {
 }
 
 class CustomPopMenu extends StatelessWidget {
-  const CustomPopMenu();
+  final TextEditingController controller;
+
+  CustomPopMenu({required this.controller});
+  final List<String> contents = ["67558790", "97018957"];
   @override
   Widget build(BuildContext context) {
     return PopupMenuButton<String>(
-      onSelected: (String value) {},
+      onSelected: (String value) {
+        controller.text = value;
+      },
       itemBuilder: (BuildContext context) {
-        return ["67558790", "97018957"]
+        return contents
             .map<PopupMenuItem<String>>(
               (e) => PopupMenuItem(
                 child: Text(e),
