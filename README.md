@@ -13,3 +13,8 @@
 1. controller
     - To manage the content of the TextFormField
     - With **controller.text** we can retrieve the content entered by the user
+2. border
+    - Apply a border type to the TextFormField
+3. hintText
+    - Allows you to enter a predefined text to guide the user to the expected value
+4. Go into detail about the different properties of the TextFormField by following this link [https://api.flutter.dev/flutter/material/TextFormField-class.html]
