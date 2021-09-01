@@ -8,4 +8,4 @@
 > <img src="flutter_textformfield_with_pop_up/screenshots/customTextFormField.png" />
 - **Render**
 > <img src="flutter_textformfield_with_pop_up/screenshots/render1.png" />
-## A 
+> The TextFormField has a number of properties that define the look and feel of the widget in question
