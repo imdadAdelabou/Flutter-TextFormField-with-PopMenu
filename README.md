@@ -26,3 +26,9 @@
 1. itemBuilder
     - A function that expects a List<PopupMenuItem<String>>, in a simple way the content of the PopMenuButton
     - So what we do is we just convert a List of strings into a List of PopMenuItem
+2. onSelected
+    - retrieves the value selected by the user from the list of values and add it directly to the TextFormField using the widget controller.
+    
+3. Icon
+    - To make an icon representation of the PopupMenu when it is not active
+## Well done we have come such a long way, we have just created the component for our PopupMenu so let's choose where to place it in our TextFormField
