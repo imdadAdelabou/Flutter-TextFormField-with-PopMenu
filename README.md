@@ -7,4 +7,16 @@
 > **To create a TextFormField in flutter we call the TextFormField() widget as follows 👇 ⬇️ 👇 :**
 > <img src="flutter_textformfield_with_pop_up/screenshots/customTextFormField.png" />
 - **Render**
-> <img src="flutter_textformfield_with_pop_up/screenshots/render1.png" />
+> <img src="flutter_textformfield_with_pop_up/screenshots/render1.png" />\
+> The TextFormField has a number of properties that define the look and feel of the widget.
+> For example we have these different properties 👇👇:
+1. controller
+    - To manage the content of the TextFormField
+    - With **controller.text** we can retrieve the content entered by the user
+2. border
+    - Apply a border type to the TextFormField
+3. hintText
+    - Allows you to enter a predefined text to guide the user to the expected value
+4. Go into detail about the different properties of the TextFormField by following this link [https://api.flutter.dev/flutter/material/TextFormField-class.html]
+
+## Let's go back to the essentials and build our PopMenu
