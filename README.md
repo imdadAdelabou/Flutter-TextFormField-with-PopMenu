@@ -20,7 +20,7 @@
 4. Go into detail about the different properties of the TextFormField by following this link [https://api.flutter.dev/flutter/material/TextFormField-class.html]
 
 ## Let's go back to the essentials and build our PopMenu
->To build a PopMenu we make use of the PopupMenuButton() widget by implementing it this way 👇👇👇:
+> To build a PopMenu we make use of the PopupMenuButton() widget by implementing it this way 👇👇👇:
 > <img src="flutter_textformfield_with_pop_up/screenshots/myPopMenu.png">
 
 1. itemBuilder
